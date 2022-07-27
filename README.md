@@ -1,2 +1,13 @@
-# Area_Circle
-Given a Circle:  image  Take Radius as input and find the area of Circle.  Note: Use Math.PI for value of PI  Input Format  Single Line of input.  First Line will contain an integer as Radius of Circle. Constraints  1&lt;=Radius&lt;=500 Output Format  Single Line of Output  Output will contain an double type value as area of Circle. Sample Input 0  5 Sample Output 0  78.53981633974483 Explanation 0  Since the radius of our circle is 5, our area of circle will be 78.53981633974483
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner s=new Scanner(System.in);
+        int r=s.nextInt();
+        double PI=Math.PI;
+        System.out.println(PI*r*r);
+    }
+}
